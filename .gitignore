@@ -1,0 +1,64 @@
+# ===============================
+# IDE / Editor
+# ===============================
+.vs/
+.idea/
+.vscode/
+# editor
+# ===============================
+# Unreal Generated Folders
+# ===============================
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Plugins
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# ===============================
+# Build Artifacts (SAFE)
+# ===============================
+Build/**/FileOpenOrder/
+Build/**/Manifest_*.txt
+Build/**/PakList_*.txt
+
+# ===============================
+# Compiled Objects
+# ===============================
+*.obj
+*.pdb
+*.idb
+*.ipch
+*.pch
+*.exp
+*.dll
+*.so
+*.dylib
+*.exe
+
+# ===============================
+# Generated Project Files
+# ===============================
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+.vsconfig
+
+# ===============================
+# OS Junk
+# ===============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===============================
+# Optional (Lighting rebuild required)
+# ===============================
+*_BuiltData.uasset
